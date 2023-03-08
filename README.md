@@ -1,4 +1,12 @@
 # Grobid PDF management
+
+Brief description of the project.
+
+- **Author:** Miguel Casado
+- **Course:** AI
+- **Latest Version:** March 8th, 2023
+
+
 In this documentation your are going to find out how to install, prepare and run my Grobid based PDF management tool.
 
 ## Getting started
