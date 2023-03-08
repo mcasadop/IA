@@ -10,7 +10,7 @@ This document shows the steps followed in the tool code to process the PDFs and 
 
 5. Extraction: Extract the abstract from the text
 
-  5.1 Clean up the stopwords in the abstracts so as not to insert in the word cloud those that are not relevant to the meaning
+    5.1 Clean up the stopwords in the abstracts so as not to insert in the word cloud those that are not relevant to the meaning
 
 6. Generation: Generate a keyword list from the abstract
 
@@ -18,7 +18,7 @@ This document shows the steps followed in the tool code to process the PDFs and 
 
 8. Extraction: Extract the URLs of the PDFs from the text
 
-  8.1 Clean up generic URLs such as https://doi.org
+    8.1 Clean up generic URLs such as https://doi.org
 
 9. Output: Display the URLs of the PDFs on the screen
 
