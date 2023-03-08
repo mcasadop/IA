@@ -49,6 +49,6 @@ Go to the /IA/tests folder.
 
 Run: `poetry shell`
 
-Run: `poetry run python3.10 __init__.py
+Run: `poetry run python3.10 __init__.py`
 
 If everything went well, you will see an 'Ok' message on the screen.
