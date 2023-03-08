@@ -81,7 +81,7 @@ plt.figure(figsize=(8, 8), facecolor=None)
 plt.imshow(wordcloud)
 plt.axis("off")
 plt.tight_layout(pad=0)
-plt.savefig(folder_path+'wordcloud') 
+plt.savefig(folder_path+'/wordcloud.png') 
 
 # Visualizar el numero de imagenes por PDF
 plt.bar(pdf_names, images_n)
@@ -89,4 +89,4 @@ plt.xticks(rotation=90)  # Rotamos los nombres de los PDFs para que se vean mejo
 plt.xlabel('Nombre del PDF')
 plt.ylabel('Número de imágenes')
 plt.title('Número de imágenes por PDF')
-plt.savefig(folder_path+'/images')
+plt.savefig(folder_path+'/images.png')
