@@ -24,6 +24,6 @@ This document shows the steps followed in the tool code to process the PDFs and 
 
 10. Extraction: Extract the number of images from the text
 
-11. Generation: Generate a chart with the number of images
+11. Generation: Generate a chart with the number of images for each file
 
 12. Output: Display the generated graphic
