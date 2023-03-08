@@ -38,5 +38,7 @@ This will display (among other messages) a list of the URLs of each PDF (if any)
 In addition, if you want to test that your connection to Grobid works correctly and that the folder from where you extract the files has been correctly created do the following:
 
 Go to the /IA/tests folder.
+
 Run: poetry shell
+
 Run: poetry run python3.10 __init__.py
