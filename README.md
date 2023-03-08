@@ -33,3 +33,10 @@ After this, we will start the poetry shell: poetry shell
 Once we get here, and if everything has gone as expected, we are going to run the tool script: poetry run python3.10 __init__.py
 
 This will display (among other messages) a list of the URLs of each PDF (if any). It will also insert in the Volume, or shared folder, wordcloud.png, which contains a word cloud with the most repeated keywords of all PDFs. In addition to images.png, with a count of the images in each PDF. This can be found in the /IA/ia/resources directory in Docker, or in the local folder where you had your PDFs.
+
+## Running unittests
+In addition, if you want to test that your connection to Grobid works correctly and that the folder from where you extract the files has been correctly created do the following:
+
+Go to the /IA/tests folder.
+Run: poetry shell
+Run: poetry run python3.10 __init__.py
