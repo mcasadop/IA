@@ -20,7 +20,7 @@ Once u have it nicely downloaded, u should pull its docker image by running the 
 ## Downloading and building the tool
 First of all, you are going to download the project by the Clone button from GitHub in this repository. In this repository we will find several files including the Dockerfile (to build the image of our Docker), pyproyect.toml (with all the dependencies of our environment) and a directory /ia containing the script to run.
 
-Once it is downloaded, in a terminal you are going to position yourself in the downloaded folder. Once positioned we are going to build the Docker image by the next command: docker build -t image_name .`
+Once it is downloaded, in a terminal you are going to position yourself in the downloaded folder. Once positioned we are going to build the Docker image by the next command: `docker build -t image_name .`
 
 Don't forget to change 'image_name' to the name you want to your Docker image.
 You can also check that your image has been created correctly with the command: `docker images`
@@ -35,7 +35,9 @@ When grobid is running, we will open a new terminal, position yourself inside th
 Remember to change /Local-path-with-ur-PDFs to the path where you have saved the PDFs you want to process. This will generate a shared folder inside the docker with your local path.
 
 When you are inside Docker, you are going to place yourself in the script folder: `cd ia`
+
 After this, we will start the poetry shell: `poetry shell`
+
 Once we get here, and if everything has gone as expected, we are going to run the tool script: `poetry run python3.10 __init__.py`
 
 This will display (among other messages) a list of the URLs of each PDF (if any). It will also insert in the Volume, or shared folder, wordcloud.png, which contains a word cloud with the most repeated keywords of all PDFs. In addition to images.png, with a count of the images in each PDF. This can be found in the /IA/ia/resources directory in Docker, or in the local folder where you had your PDFs.
