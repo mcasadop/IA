@@ -28,7 +28,7 @@ You can also check that your image has been created correctly with the command: 
 ## Running the tool
 Before running anything we are going to define a network to be able to connect Grobid with the Docker of our tool with the following command: `docker network create network_name`
 
-Una vez tengas la network creada vamos a ejecutar el docker de Grobid: docker run --name grobid --network network_name -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2`
+Una vez tengas la network creada vamos a ejecutar el docker de Grobid: `docker run --name grobid --network network_name -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2`
 
 When grobid is running, we will open a new terminal, position yourself inside the downloaded folder (where Dockerfile is) and use the following command to run the docker image: `docker run -it --network="network_name" --rm -v /Local-path-with-ur-PDFs:/IA/ia/resources image_name`
 
