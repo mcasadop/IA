@@ -2,8 +2,8 @@
 
 In this documentation your are going to find out how to install, prepare and run my Grobid based PDF management tool.
 
-- **Author:** Miguel Casado
-- **Course:** AI
+- **Author:** Miguel Casado Pina
+- **Course:** Artificial Intelligence And Open Science In Research Software Engineerin
 - **Latest Version:** March 8th, 2023
 
 
